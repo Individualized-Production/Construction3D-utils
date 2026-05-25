@@ -14,12 +14,6 @@ All generated outputs are written to a local `outputs/` directory.
 
 The original dataset files are never modified.
 
-## Dataset
-
-The RefSite3D dataset is publicly available on Zenodo:
-
-https://doi.org/10.5281/zenodo.20285732
-
 ## Repository Structure
 
 ```text
