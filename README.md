@@ -254,13 +254,13 @@ The source code in this repository is distributed under the MIT License.
 If you use the RefSite3D dataset, please cite:
 
 ```text
-Fahrendholz-Heiermann, J. L., Wu, C. H., Zöcklein, M., & Brell-Cokcan, S. (2026). RefSite3D: A Multi-Phase and Multi-Scenario Dataset from the Reference Construction Site Aachen for Target Extraction, BIM-to-Scan Verification and Construction Monitoring (Version 1.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.20285732```
-
+Fahrendholz-Heiermann, J. L., Wu, C. H., Zöcklein, M., & Brell-Cokcan, S. (2026). RefSite3D: A Multi-Phase and Multi-Scenario Dataset from the Reference Construction Site Aachen for Target Extraction, BIM-to-Scan Verification and Construction Monitoring (Version 1.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.20285732
+```
 
 If you use the IoC3D dataset, please cite:
 
 ```text
-Fahrendholz-Heiermann, J. L., Adams, T., Wildemann, P. R., Kirner, L., Zöcklein, M., & Brell-Cokcan, S. (2026). IoC3D: A Multi-Scenario Semantic Target Extraction and Construction Progress Monitoring Dataset for BIM-to-Scan Verification (Version 1.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.20386114```
+Fahrendholz-Heiermann, J. L., Adams, T., Wildemann, P. R., Kirner, L., Zöcklein, M., & Brell-Cokcan, S. (2026). IoC3D: A Multi-Scenario Semantic Target Extraction and Construction Progress Monitoring Dataset for BIM-to-Scan Verification (Version 1.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.20386114
 ```
 
 ## Acknowledgements
