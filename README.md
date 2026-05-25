@@ -1,6 +1,6 @@
-# RefSite3D Utils
+# Construction3D Utils
 
-Python GUI utilities for preprocessing, visualization, and quality control of the RefSite3D dataset.
+Python GUI utilities for preprocessing, visualization, and quality control of the RefSite3D and IoC3D datasets.
 
 The repository provides standalone tools for:
 
@@ -23,7 +23,7 @@ https://doi.org/10.5281/zenodo.20285732
 ## Repository Structure
 
 ```text
-RefSite3D-utils/
+Construction3D-utils/
 ├── README.md
 ├── LICENSE
 ├── requirements.txt
@@ -40,9 +40,10 @@ The utility scripts are intended to be copied into the `utils/` directory of the
 
 ### 1. Download the Dataset
 
-Download and extract the dataset from Zenodo:
+Download and extract one of the datasets from Zenodo:
 
-https://doi.org/10.5281/zenodo.20285732
+RefSite3D: https://doi.org/10.5281/zenodo.20285732
+IoC3D: https://doi.org/10.5281/zenodo.20386114
 
 ### 2. Clone the Repository
 
@@ -84,7 +85,7 @@ Main dependencies:
 
 ## Processing Workflow and Utility Scripts
 
-The RefSite3D benchmark consists of two sequential tasks:
+The RefSite3D and IoC3D benchmark consists of two sequential tasks:
 
 1. Target Extraction
 2. Progress Monitoring via Object Verification
@@ -258,12 +259,23 @@ The source code in this repository is distributed under the MIT License.
 If you use the RefSite3D dataset, please cite:
 
 ```text
-Fahrendholz-Heiermann, J. L., Wu, C. H., Zöcklein, M., & Brell-Cokcan, S. (2026). RefSite3D: A Multi-Phase and Multi-Scenario Dataset from the Reference Construction Site Aachen for Target Extraction, BIM-to-Scan Verification and Construction Monitoring (Version 1.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.20285732
+Fahrendholz-Heiermann, J. L., Wu, C. H., Zöcklein, M., & Brell-Cokcan, S. (2026). RefSite3D: A Multi-Phase and Multi-Scenario Dataset from the Reference Construction Site Aachen for Target Extraction, BIM-to-Scan Verification and Construction Monitoring (Version 1.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.20285732```
+
+If you use the IoC3D dataset, please cite:
+
+```text
+Fahrendholz-Heiermann, J. L., Adams, T., Wildemann, P. R., Kirner, L., Zöcklein, M., & Brell-Cokcan, S. (2026). IoC3D: A Multi-Scenario Semantic Target Extraction and Construction Progress Monitoring Dataset for BIM-to-Scan Verification (Version 1.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.20386114```
 ```
 
 ## Acknowledgements
 
-The TARGET-X ReStage demonstrator, including the planning models, construction activities, and data acquisition, was developed within TARGET-X and funded by the Smart Networks and Services Joint Undertaking (SNS JU) under the European Union’s Horizon Europe research and innovation programme (Grant Agreement No. 101096614).
+## Acknowledgements
 
-The transformation of the acquired and simulated data into a structured benchmark dataset, including annotation generation, utility script development, and dataset documentation, was carried out within the Cluster of Excellence CARE. CARE - Climate-Neutral and Resource-Efficient Construction is funded by the Deutsche Forschungsgemeinschaft (DFG, German Research Foundation) under Germany’s Excellence Strategy – EXC 3115 – 533767731.
+The utility scripts and associated datasets were developed within the research projects TARGET-X, Internet of Construction (IoC), and the Cluster of Excellence CARE at RWTH Aachen University.
+
+The TARGET-X ReStage demonstrator, including the planning models, construction activities, and data acquisition campaigns, was developed within TARGET-X and funded by the Smart Networks and Services Joint Undertaking (SNS JU) under the European Union’s Horizon Europe research and innovation programme (Grant Agreement No. 101096614).
+
+The research and associated contributions related to IoC3D were largely carried out within the framework of the research project “Internet of Construction” (IoC), funded by the Federal Ministry of Education and Research of Germany within the funding initiative “Innovation for Production, Services and Work of Tomorrow” (funding number: 02P17D081). The project was supported by the project management agency Projektträger Karlsruhe (PTKA).
+
+The transformation of acquired and simulated data into structured benchmark datasets, including annotation generation, utility script development, preprocessing workflows, and dataset documentation, was carried out within the Cluster of Excellence CARE – Climate-Neutral and Resource-Efficient Construction. CARE is funded by the Deutsche Forschungsgemeinschaft (DFG, German Research Foundation) under Germany’s Excellence Strategy – EXC 3115 – 533767731.
 
